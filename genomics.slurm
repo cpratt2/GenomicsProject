@@ -95,4 +95,4 @@ for fasta in referenceProject.fa contigs.fa
 done
 
 # Count number of contigs in assembly
-grep ">" contigs.fa | wc -1 > ../results/contigCount.txt
+grep ">" contigs.fa | wc -l > ../results/contigCount.txt
